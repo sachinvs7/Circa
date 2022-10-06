@@ -1,5 +1,8 @@
 # Experiments and findings with Google's Circa dataset 
 
+![Circa BERT classification](/Capture1.PNG "Example 1")
+
+
 ### This project is primarily centered around an effort to reproduce/recreate findings from a EMNLP 2020 paper: ***"I'd rather just go to bed": Understanding Indirect Answers***; and exploring a possible idea for a real-world "extension". The paper's authors have shared the full details and relevant data at: https://github.com/google-research-datasets/circa Google publishes interesting datasets regularly as a foundation to solve complex problems. There are plenty, but this one particularly caught my eye. 
 
 ## What is Circa?
@@ -22,6 +25,7 @@ Back to business again, the context will give you a chance to segment or categor
 
 ## Solutions Developed:
 ### 1. Performed feature extraction and fine-tuning with BERT to predict the direct answer from the indirect response to a question; test accuracy and F1 reached north of 90%. Did well even for complicated scenarios such as the one below: 
+![Circa BERT classification 2](/Capture2.PNG "Example 2")
 ### 2. Investigated the responses and performed topic modeling with LDA to determine what themes the responses were based on to establish a singular context.
 
-Two notebooks show findings in both solutions. Backed by comments, thoughts, and figures. 
+## Two notebooks show findings in both solutions. Backed by comments, thoughts, and figures. 
